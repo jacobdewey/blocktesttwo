@@ -22,9 +22,11 @@ x: Number
 
 
 
+} 
+//% block
+export function test(x: Number): Number {
+return x
 }
-
-
 
 
 
