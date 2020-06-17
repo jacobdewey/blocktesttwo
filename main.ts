@@ -1,11 +1,12 @@
+moreBasic.when(false, function () {
+	
+})
 moreBasic.when(true, function () {
-    if (true) {
-        basic.showLeds(`
-            # . # . #
-            . # . # .
-            # . # . #
-            . # . # .
-            # . # . #
-            `)
-    }
+    basic.showLeds(`
+        # . # . #
+        . # . # .
+        # . # . #
+        . # . # .
+        # . # . #
+        `)
 })

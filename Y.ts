@@ -4,7 +4,7 @@ namespace moreBasic{
 export function when(g: boolean, a: () => void): void{
     while(true) {
     if (g) {
-       a
+    try  {a} finally{a}
     }
     }
     
