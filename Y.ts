@@ -10,6 +10,23 @@ a
     }
 })
 }
+//% block
+export function print(a: string): void{
+console.log(a)
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
