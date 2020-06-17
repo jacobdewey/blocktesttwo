@@ -16,17 +16,11 @@ console.log(a)
 
 
 }
-export type show ={
-x: Number
-
-
-
-
+export type integer ={
+p: number
+g: string
 } 
 //% block
-export function test(x: Number): Number {
-return x
-}
 
 
 
