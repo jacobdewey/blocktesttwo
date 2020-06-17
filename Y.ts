@@ -2,15 +2,14 @@
 namespace moreBasic{
 //% blockId=when_do block="when  %boolean"
 export function when(g: boolean, a: () => void): void{
-basic.forever(function () {
-    
+    while(true) {
     if (g) {
-        a
+       a
     }
-})
-
+    }
     
 }
+
 
 
 
