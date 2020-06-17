@@ -16,8 +16,13 @@ console.log(a)
 
 
 }
+export type show ={
+x: Number
 
 
+
+
+}
 
 
 
