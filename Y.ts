@@ -5,7 +5,7 @@ export function when(g: boolean, a: () => void){
 basic.forever(function () {
     
     if (g) {
-        try {a} finally{}
+        try {a} finally{a}
     }
 })
 
