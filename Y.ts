@@ -1,6 +1,6 @@
 //% weight=100000000 color=#333333 icon="\uf234"
 namespace blockTest{
-//% blockId=when @g do @a block="when"
+//% blockId=when_do block="when %boolean"
 export function when(a: () => void, g: boolean){
 basic.forever(function () {
     
