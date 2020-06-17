@@ -16,7 +16,7 @@ console.log(a)
 
 
 }
-export type integer ={
+export type nameValue={
 p: number
 g: string
 } 
