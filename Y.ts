@@ -2,7 +2,7 @@
 namespace moreBasic{
 //% blockId=when_do block="when  %boolean"
 export function when(g: boolean, a: () => void): void{
-    a
+    try {a} finally{a}
     
 }
 
